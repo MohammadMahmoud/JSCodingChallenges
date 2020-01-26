@@ -2,8 +2,8 @@
 Some coding challenges made by me through my career it gets improve by time.
 
 you will need node.js in order to run any challenge.
-```javascript
-node 
+```shell script
+node <file-name>
 ```
 
 List 
