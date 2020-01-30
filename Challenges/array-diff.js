@@ -20,15 +20,14 @@ function diffArray(array1, array2) {
     return result;
 }
 
-// function diffArray(array1, array2) {
-//   return array1
-//     .concat(array2)
-//     .filter(item => !array1.includes(item) || !array2.includes(item));
-// }
+function shortDiffArray(array1, array2) {
+  return array1
+    .concat(array2)
+    .filter(item => !array1.includes(item) || !array2.includes(item));
+}
 
 console.log(
-    diffArray(
-        [1, "calf", 3, "piglet"], [7, "filly"]
-    )
+    diffArray([1, "calf", 3, "piglet"], [7, "filly"]),
+    shortDiffArray([1, "calf", 3, "piglet"], [7, "filly"])
 );
 
