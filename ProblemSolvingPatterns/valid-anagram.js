@@ -1,6 +1,6 @@
 "use strict";
 
-const validAnagram = ((string1, string2) => {
+exports.validAnagram = ((string1, string2) => {
     if (!string1 || typeof string1 !== "string" || !string2 || typeof string2 !== "string") {
         throw new Error("Please Provide A Valid Arguments");
     }
@@ -29,7 +29,7 @@ const validAnagram = ((string1, string2) => {
 });
 
 //Short Answer O(n^2)
-const ShortValidAnagram = ((string1, string2) => {
+exports.ShortValidAnagram = ((string1, string2) => {
     if (!string1 || typeof string1 !== "string" || !string2 || typeof string2 !== "string") {
         throw new Error("Please Provide A Valid Arguments");
     }

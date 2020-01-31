@@ -1,0 +1,22 @@
+{
+  "name": "jscodingchallenges",
+  "version": "1.0.0",
+  "description": "personal coding challengs",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammadMahmoud/JSCodingChallenges.git"
+  },
+  "author": "Mohammed Mahmoud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohammadMahmoud/JSCodingChallenges/issues"
+  },
+  "homepage": "https://github.com/MohammadMahmoud/JSCodingChallenges#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
