@@ -72,6 +72,7 @@ g.addVertex('C');
 g.addVertex('D');
 g.addVertex('E');
 g.addVertex('F');
+g.addVertex('G');
 
 g.addEdge('A', 'B');
 g.addEdge('A', 'C');
@@ -79,6 +80,9 @@ g.addEdge('B', 'D');
 g.addEdge('C', 'E');
 g.addEdge('D', 'E');
 g.addEdge('D', 'F');
+g.addEdge('D', 'G');
 g.addEdge('E', 'F');
+g.addEdge('E', 'G');
+g.addEdge('F', 'G');
 
 console.log(g.depthFirstIterative('A'));
