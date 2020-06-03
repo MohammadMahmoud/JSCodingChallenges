@@ -1,12 +1,15 @@
 # JSCodingChallenges
+
 Some coding challenges made by me through my career it gets improve by time.
 
 you will need node.js in order to run any challenge.
+
 ```shell script
 node <file-name>
 ```
 
-List 
+List
+
 - Reverse Word
 - Factorial of Number
 - Letter Changes
@@ -16,7 +19,7 @@ List
 - Biggest Number In Array
 - EndWith
 - Repeat String
-- truncateString
+- Truncate String
 - Group Array in chunks
 - Remove N from array
 - Mutation
@@ -25,5 +28,3 @@ List
 - Caesars Cipher
 - Sum All Till The Highest Number
 - Diff array
-
-
